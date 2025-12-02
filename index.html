@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samip Kafle Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <header id="hero">
+    <video autoplay loop muted id="video-background">
+      <source src="background-loop.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <nav class="navbar">
+      <span class="logo">Samip Kafle</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menu-button" aria-expanded="false">☰</button>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Samip Kafle</h1>
+      <p>Frontend Developer & UI/UX Enthusiast</p>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a frontend developer with a passion for creating clean and functional websites. I'm a skilled person in this field with a tons of experience </p>
+  </section>
+
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">UI/UX Design</div>
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div id="projects-grid">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>Short description of Project 1.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Short description of Project 2.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 3</h3>
+        <p>Short description of Project 3.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form-id">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your Email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Your Message"></textarea>
+
+      <button type="submit">Send</button>
+      <div id="form-message"></div>
+    </form>
+  </section>
+
+
+  <footer>
+    <p> © 2025 Samip Kafle. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
